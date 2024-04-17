@@ -6,7 +6,7 @@ export default function Sobre() {
     <S.Main>
       <Header/>
       <section>
-        <h2>Projetos</h2>
+        <h2>Sobre</h2>
       </section>
     </S.Main>
   )

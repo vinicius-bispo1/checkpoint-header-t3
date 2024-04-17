@@ -9,14 +9,14 @@ export default function Header() {
     <S.Header>
         <S.BoxLogo>
           <img src="https://labes.inf.ufes.br/wp-content/uploads/sem-foto.jpg" alt="" />
-          <h2>Thales</h2>
-          <p>Front-end Developer</p>
+          <S.Title>Thales</S.Title>
+          <S.Text>Front-end Developer</S.Text>
         </S.BoxLogo>
         <S.BoxMenu>
             <ul>
-                <li><Link  to="/">Inicio</Link></li>
-                <li><Link to="/sobre">Sobre mim</Link></li>
-                <li><Link to="/projetos">Projetos</Link></li>
+                <S.Lista><Link  to="/">Inicio</Link></S.Lista>
+                <S.Lista><Link to="/sobre">Sobre mim</Link></S.Lista>
+                <S.Lista><Link to="/projetos">Projetos</Link></S.Lista>
             </ul>
         </S.BoxMenu>
         <S.BoxIcon>
@@ -24,7 +24,6 @@ export default function Header() {
           <a href=""><img src={git} alt="" /></a>
           <a href=""><img src={face} alt="" /></a>
         </S.BoxIcon>
-
     </S.Header>
   )
 }
